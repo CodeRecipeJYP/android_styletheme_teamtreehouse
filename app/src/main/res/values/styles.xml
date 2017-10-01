@@ -21,6 +21,11 @@
         <item name="android:typeface">normal</item>
     </style>
 
+    <style name="PlaybackAlbumArtworkStyle">
+        <item name="android:scaleType">fitXY</item>
+        <item name="riv_corner_radius">20dp</item>
+    </style>
+
     <!-- -->
 
     <style name="BlurredBackgroundImageStyle">
