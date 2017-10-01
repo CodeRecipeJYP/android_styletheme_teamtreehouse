@@ -26,6 +26,16 @@
         <item name="riv_corner_radius">20dp</item>
     </style>
 
+    <style name="SettingsToolbarStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">?android:attr/actionBarSize</item>
+        <item name="android:background">#2a2a2a</item>
+        <item name="android:theme">?android:attr/actionBarTheme</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+
     <!-- -->
 
     <style name="BlurredBackgroundImageStyle">
