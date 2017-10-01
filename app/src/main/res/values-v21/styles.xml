@@ -4,4 +4,8 @@
     <style name="OverflowButtonStyle" parent="@style/OverflowButtonBase">
         <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
     </style>
+
+    <style name="PlaybackButtonStyle" parent="PlaybackButtonStyleBase">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
 </resources>

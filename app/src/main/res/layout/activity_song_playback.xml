@@ -72,6 +72,6 @@
   <ImageButton
       android:id="@+id/overflowMenu"
       android:onClick="popupMenu"
-      style="@style/OverflowButtonBase" />
+      style="@style/OverflowButtonStyle" />
 
 </android.support.constraint.ConstraintLayout>
