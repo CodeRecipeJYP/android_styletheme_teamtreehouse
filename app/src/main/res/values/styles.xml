@@ -71,6 +71,12 @@
     <item name="android:inputType">textEmailAddress</item>
   </style>
 
+  <style name="PlaybackButtonStyle">
+    <item name="android:layout_height">64dp</item>
+    <item name="android:layout_width">64dp</item>
+    <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+  </style>
+
   <style name="SettingsSeekBarStyle">
     <item name="android:layout_width">0dp</item>
     <item name="android:layout_height">wrap_content</item>
