@@ -108,7 +108,8 @@
         <item name="layout_constraintLeft_toLeftOf">parent</item>
     </style>
 
-    <style name="SettingsSwitchStyle">
+    <style name="SettingsSwitchStyleBase">
+        <item name="android:background">@android:color/transparent</item>
         <item name="android:textSize">18sp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -117,6 +118,8 @@
         <item name="layout_constraintRight_toRightOf">parent</item>
         <item name="layout_constraintLeft_toLeftOf">parent</item>
     </style>
+
+    <style name="SettingsSwitchStyle" parent="SettingsSwitchStyleBase"/>
 
     <style name="OverflowButtonBase">
         <!-- <item name="android:background">?attr/selectableItemBackgroundBorderless</item>-->

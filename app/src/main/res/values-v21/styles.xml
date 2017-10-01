@@ -8,4 +8,8 @@
     <style name="PlaybackButtonStyle" parent="PlaybackButtonStyleBase">
         <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
     </style>
+
+    <style name="SettingsSwitchStyle" parent="SettingsSwitchStyleBase">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
 </resources>
