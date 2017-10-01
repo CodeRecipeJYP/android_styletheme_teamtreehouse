@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@id/username"
         style="@style/SettingsEmailStyle"/>
 
-    <android.widget.Switch
+    <android.support.v7.widget.SwitchCompat
         android:id="@+id/bass_boost"
         android:layout_marginTop="48dp"
         android:checked="true"
@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/email"
         style="@style/SettingsSwitchStyle"/>
 
-    <android.widget.Switch
+    <android.support.v7.widget.SwitchCompat
         android:id="@+id/volume_boost"
         android:text="Volume Boost"
         app:layout_constraintTop_toBottomOf="@+id/bass_boost"
