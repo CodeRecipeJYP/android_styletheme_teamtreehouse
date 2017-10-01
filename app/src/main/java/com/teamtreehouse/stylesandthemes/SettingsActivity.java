@@ -1,21 +1,24 @@
 package com.teamtreehouse.stylesandthemes;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.widget.Toolbar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class SettingsActivity extends Activity {
+public class SettingsActivity extends AppCompatActivity {
 
-  @BindView(R.id.toolbar) Toolbar toolbar;
+  @BindView(R.id.toolbar)
+  Toolbar toolbar;
 
   @Override protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_settings);
     ButterKnife.bind(this);
-    setActionBar(toolbar);
-    getActionBar().setDisplayShowTitleEnabled(false);
+    setSupportActionBar(toolbar);
+    // getActionBar() can cause NPE
+    getSupportActionBar().setDisplayShowTitleEnabled(false);
   }
 }

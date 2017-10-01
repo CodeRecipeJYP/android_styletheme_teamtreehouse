@@ -7,7 +7,7 @@
     android:background="#1d1d1d"
     android:orientation="vertical">
 
-    <android.widget.Toolbar
+    <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         tools:layout_height="52dp"
         style="@style/SettingsToolbarStyle"
@@ -15,7 +15,7 @@
         <TextView
             android:text="SETTINGS"
             style="@style/SettingsToolbarTextStyle"/>
-    </android.widget.Toolbar>
+    </android.support.v7.widget.Toolbar>
 
     <EditText
         android:id="@+id/username"
